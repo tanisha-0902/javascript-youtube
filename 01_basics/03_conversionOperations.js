@@ -20,3 +20,35 @@ let someNumber=33
 let StringNumber=String(someNumber)
 console.log(StringNumber);
 console.log(typeof StringNumber)
+
+//*********************operations******************/
+let value=3
+let negVal=-value
+console.log(negVal);
+
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+let str1="hello"
+let str2=" tanisha"
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2);//gives 12
+console.log(1+"2");//gives 12
+console.log("1"+2+2);//gives 122
+console.log(1+2+"2");//gives 32
+console.log(+true)//returns 1
+console.log(+"")//returns 0
+let num1,num2,num3
+num1=num2=num3=2+2//canbe written but not good
+
+let counter=100
+counter++;//101
+console.log(counter)
+++counter;//101 differently
