@@ -49,3 +49,23 @@ console.log(typeof scoreValue); // number
 console.log(typeof isLoggedIn); // boolean  
 console.log(typeof outsideTemp); // object (null is considered an object in JS)
 console.log(typeof userEmail); // undefined
+
+//two types of memory
+//stack(used in primitives)(copy is made),heap(non-primitives)(reference is made)
+
+let myYoutubeName="Tanisha Mittal"
+
+let anotherName=myYoutubeName
+anotherName="lovish mittal"
+console.log(myYoutubeName); // Tanisha Mittal
+console.log(anotherName); // lovish mittal
+//here in stack myYoutubeName is stored and anotherName is copied then when we change anotherName it does not affect myYoutubeName because it has copied from the copy not the original myYoutubeName
+
+let userOne={
+    email:"user@google.com",
+    upiId:"user@upi",
+}
+let userTwo=userOne
+userTwo.email="lovish@google.com"
+console.log(userOne.email);//lovish@google.com
+console.log(userTwo.email);//lovish@google.com
