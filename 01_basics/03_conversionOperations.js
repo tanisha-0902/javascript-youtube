@@ -50,5 +50,5 @@ num1=num2=num3=2+2//canbe written but not good
 
 let counter=100
 counter++;//101
-console.log(counter)
 ++counter;//101 differently
+console.log(counter)
